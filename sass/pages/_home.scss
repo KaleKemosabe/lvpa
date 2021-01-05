@@ -1,17 +1,18 @@
 .section-about {
   background-color: $color-grey-light-1;
   padding: 25rem 0;
-  margin-top: -20vh;
+  margin-top: -10vh;
 }
 
 .section-features {
-  padding: 20rem 0;
+  padding: 25rem 0;
   background: linear-gradient(
       to right bottom,
       rgba($color-primary-light, 0.8),
       rgba($color-primary-dark, 0.8)
     ),
-    url(../img/nat-4.jpg) no-repeat top center/cover;
+    url("https://images.unsplash.com/photo-1515173792234-45cf00e907eb?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80")
+      no-repeat top center/cover;
 
   transform: skewY(-7deg);
   margin-top: -10rem;
@@ -47,7 +48,7 @@
       $color-white 50%,
       transparent 50%
     ),
-    url(../img/nat-10.jpg);
+    url("https://images.unsplash.com/photo-1541618016834-667715db6e8d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
   background-size: 100%;
   border-radius: 5px;
   box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);

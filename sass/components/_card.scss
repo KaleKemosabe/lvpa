@@ -25,8 +25,8 @@
       &-1 {
         background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-primary-light,
+          $color-primary-dark
         );
       }
     }
@@ -50,26 +50,26 @@
     &--1 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-primary-light,
+          $color-primary-dark
         ),
-        url(../img/nat-5.jpg);
+        url("https://images.unsplash.com/photo-1572978558410-dd4051bc0cd3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
     }
     &--2 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-primary-light,
+          $color-primary-dark
         ),
-        url(../img/nat-6.jpg);
+        url("https://images.unsplash.com/photo-1606147863812-706dd7ba909c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
     }
     &--3 {
       background-image: linear-gradient(
           to right bottom,
-          $color-secondary-light,
-          $color-secondary-dark
+          $color-primary-light,
+          $color-primary-dark
         ),
-        url(../img/nat-7.jpg);
+        url("https://images.unsplash.com/photo-1572978126729-7ad3c1fdf679?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80");
     }
   }
 
@@ -90,8 +90,8 @@
     &--1 {
       background-image: linear-gradient(
         to right bottom,
-        rgba($color-secondary-light, 0.8),
-        rgba($color-secondary-dark, 0.8)
+        rgba($color-primary-light, 0.8),
+        rgba($color-primary-dark, 0.8)
       );
     }
   }
