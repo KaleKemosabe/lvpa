@@ -1,5 +1,5 @@
 .header {
-  height: 95vh;
+  height: 100vh;
   background: linear-gradient(
       to right bottom,
       rgba($color-primary-light, 0.5),
@@ -11,11 +11,11 @@
 
   &__logo-box {
     position: absolute;
-    top: 4rem;
-    left: 4rem;
+    top: 6rem;
+    left: 6rem;
   }
   &__logo {
-    height: 3.5rem;
+    height: 7rem;
   }
   &__text-box {
     position: absolute;

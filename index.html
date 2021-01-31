@@ -10,14 +10,33 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="shortcut icon" type="image/png" href="img/lvpa-logo.png">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
-
-        
         <title>LVPA | Latin Theatre</title>
     </head>
     <body>
+
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link">About LVPA</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Features</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Products</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Feedback</a></li>
+                    <li class="navigation__item"><a href="#" class="navigation__link">Book now</a></li>
+                </ul>
+            </nav>
+        </div>
+
         <header class="header">
-            <!-- <div class="header__logo-box">
-                <img src="img/lvpa-logo.png" alt="Logo" class="header__logo"> -->
+            <div class="header__logo-box">
+                <img src="img/lvpa-logo-white.png" alt="Logo" class="header__logo">
             </div>
 
             <div class="header__text-box">
@@ -25,7 +44,7 @@
                     <span class="heading-primary--main">LVPA</span>
                     <span class="heading-primary--sub">Ludi Variantur, Plausus Augetur</span>
                 </h1>
-                <a href="#" class="btn btn--white btn--animated">Find out more</a>
+                <a href="#section-tours" class="btn btn--white btn--animated">Find out more</a>
             </div>
 
         </header> 
@@ -90,7 +109,7 @@
                     </div>
                 </div>
             </section>
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
                     <h2 class="heading-secondary">
                         Emporivm
@@ -124,7 +143,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">10€</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Buy now</a>
+                                    <a href="#popup" class="btn btn--white">Buy now</a>
                                 </div>
                             </div>
                         </div>
@@ -156,7 +175,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">10€</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Buy now</a>
+                                    <a href="#popup" class="btn btn--white">Buy now</a>
                                 </div>
                             </div>
                         </div>
@@ -188,7 +207,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">10€</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Buy now</a>
+                                    <a href="#popup" class="btn btn--white">Buy now</a>
                                 </div>
                             </div>
                         </div>
@@ -320,32 +339,20 @@
             </div>
         </footer>
 
-        <!-- <div class="popup">
+        <div class="popup" id="popup">
             <div class="popup__content">
-                popup
-            </div>
-        </div> -->
-<!-- 
-        <section class="grid-test">
-            <div class="row">
-                <div class="col-1-of-2">
-                    col 1 of 2
+                <div class="popup__left">
+                    <img src="img/lvpa-group.jpeg" alt="Group" class="popup__img">
+                    <img src="img/lvpa-group.jpeg" alt="Group" class="popup__img">
                 </div>
-                <div class="col-1-of-2">
-                    col 2 of 2
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1-of-3">
-                    col 1 of 3
-                </div>
-                <div class="col-2-of-3">
-                    col 2 of 3
-                </div>
-                <div class="col-2-of-3">
-                    col 3 of 3
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Buy now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">important &ndash; Read before buying</h3>
+                    <p class="popup__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam ea ad iure ratione accusantium rerum tempore cum nam debitis asperiores provident ducimus enim nesciunt magnam, consequatur esse, maxime, ex maiores dignissimos inventore? Voluptatibus rerum ut dolores provident molestias excepturi vero laborum quibusdam exercitationem doloribus quasi delectus qui cupiditate, totam ipsum. Dolores ea veritatis quam illum quidem dignissimos dolor possimus optio maxime autem esse cum inventore cumque earum nam quo, nemo corporis delectus, explicabo similique pariatur nisi recusandae magni? Neque perferendis obcaecati expedita deleniti tempora quidem fugit praesentium, similique officia temporibus. Voluptas deserunt, consequuntur illo ducimus cum earum velit animi incidunt?</p>
+                    <a href="#" class="btn btn--green">Book now</a>
                 </div>
             </div>
-        </section> -->
+        </div>
     </body>
 </html>
